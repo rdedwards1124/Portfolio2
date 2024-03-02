@@ -5,47 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rashonda's Portfolio</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../Page-Styles/Home.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li>
-                    <a href="./Pages/Home.html" className="custom-link">
+                    <a href="./Home.html" class="custom-link">
                         Home
                     </a>
                 </li>
- 
                 <li>
-                    <a href="./Pages/Education.html" className="custom-link" >
+                    <a href="./Education.html" class="custom-link" >
                         Education
                     </a>
                 </li>
                 <li>
-                    <a href="./Pages/Experience.html" className="custom-link" >
+                    <a href="./Experience.html" class="custom-link" >
                         Experience
                     </a>
                 </li>
                 <li>
-                    <a href="./Pages/Projects.html" className="custom-link" >
+                    <a href="./Projects.html" class="custom-link" >
                         Projects
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <div class="Home-Main">
+            <div class="Profile-Pic column">
+                <img src="../Images/me.png" alt="Pic of me"/>
+            </div>
+            <div class="Basic-Info column">
+                <h3>Name:</h3>
+                <p>Rashonda Edwards</p>
+                <h3>Occupation:</h3>
+                <p>Software Developer</p>
+                <h3>Skills:</h3>
+                <p>
+                    <ul>
+                        <li>
+                            Programming Languages - Javascript, Python, SQL
+                        </li>
+                        <li>
+                            Tools - React, Node.js, Express, PSQL, Git,
+                            GitHub
+                        </li>
+                        <li>Databases - Postgres, MongoDB</li>
+                        <li>
+                            Knowledge - HTTP operations, RESTful APIs,
+                            Cybersecurity
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div class="Paragraph">
+                <h3>My Personal Statement:</h3>
+                <p>
+                    Dedicated and certified software developer from CSU Long
+                    Beach with a background in mechanical engineering.
+                    Working towards a thriving software development career,
+                    leveraging skills in HTML, CSS, JavaScript, React,
+                    MongoDB, PostgreSQL, and more. Passionate about
+                    volunteering and have leadership experience as the
+                    President of the NSBE chapter at Cal Poly Pomona.
+                    Excited to contribute and create impactful coding
+                    projects and grow program knowledge.
+                </p>
+            </div>
+        </div>
+    </main>
     <footer>
-        <div className="footer-div">
+        <div class="footer-div">
             <h2>Contact Information</h2>
             <h4>Email: rashondaedwards@aol.com</h4>
             <h4>Phone Number: {phone}</h4>
             <h4></h4>
         </div>
-        <div className="footer-div">
+        <div class="footer-div">
             <h2>Websites</h2>
-            <h4> <a className="custom-link" href="https://www.linkedin.com/in/rashondaedwards/">LinkedIn</a></h4>
-            <h4> <a className="custom-link" href="https://github.com/rdedwards1124">GitHub</a></h4>
+            <h4> <a class="custom-link" href="https://www.linkedin.com/in/rashondaedwards/">LinkedIn</a></h4>
+            <h4> <a class="custom-link" href="https://github.com/rdedwards1124">GitHub</a></h4>
         </div>
     </footer>
 </body>
