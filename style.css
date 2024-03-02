@@ -90,3 +90,68 @@ footer li {
     text-decoration: underline;
 }
 
+
+
+@media (max-width: 768px) {
+    nav {
+        background-color: #222831;
+        display: flex;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex; 
+    }
+    
+    nav li {
+        margin: 20px; 
+    }
+    
+    /*--------------------------------------------*/
+    
+    .Home-Main {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0.5em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        /* max-width: 1000px; */
+        background: #0092ca; 
+        /* background: #393e46;  */
+        padding: 2em;
+        border: solid #222831 0.5em;
+    }
+    
+    /*--------------------------------------------*/
+    
+    footer {
+        background-color: #222831;
+        display: flex;
+        list-style: none;
+        padding: 20px;
+        text-align: left;
+        color: white;
+    }
+    
+    .footer-div{
+        margin-right: 5em;
+    }
+    
+    footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex; 
+    }
+    
+    footer li {
+        margin: 20px; 
+    }
+
+}
