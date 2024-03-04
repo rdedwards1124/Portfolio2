@@ -19,6 +19,7 @@
 } */
 
 .Profile-Pic {
+    min-height: 18em;
     width: 25%;
     /* margin: 0.5em; */
     background-color: #222831;
@@ -32,8 +33,9 @@
 }
 
 .Basic-Info {
+    /* min-height: 20em; */
     width: 65%;
-    padding: 1em;
+    padding: 3em;
     margin-left: 5%;
     background-color: #222831;
     color: white;
@@ -52,7 +54,7 @@
 .Paragraph {
     margin-top: 1.5em;
     margin-bottom: 1em;
-    padding: 1em;
+    padding: 2em;
     background-color: #222831;
     color: white;
     box-shadow: 4px 4px 1px 2px #eeeeee;
